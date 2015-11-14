@@ -8,29 +8,33 @@
 
 import Foundation
 
-protocol WSJSONDataProtocol {
+@objc public protocol WSJSONDataProtocol {
     /* Called on object when checking the property name for a key path. This will map an objects property to the JSON key value. If the key and the property name are the same then you can just return the key.
     @param key The key in the JSON object that needs to be mapped to a property on the object conforming to this protocol
     @return The object conforming to this protocol must return the property name that should be mapped to the JSON key.  If the key and the property name are the same just return the key.
     */
-    func propertyNameForKey(key: String) -> String
+    @objc func propertyNameForKey(key: String) -> String
     
     /* The object conforming to the WSJSONDataProtocol is responsible for providing newly allocated objects.  When a new JSON object is encounder the conforming object will be asked for the new object to poulate with JSON
     @param key The JSON key for the new JSON object. It is the conforming objects job to provide the object to be poplualted by looking at the key and determining what object to return.
     @param valude The object conforming to the protocol may use the value to determine what object to create or find.
     @return Object to be poplated in the matching key and value
     */
-    func objectForKeyPath(key: String, value: AnyObject?) -> AnyObject?
+    @objc func objectForKeyPath(key: String, value: AnyObject?) -> AnyObject?
     
     /* If a property type is a transformable type the conforming object returns true.
     @param key The key to check if a property type is transformable
     return True if the property value/type is suppose to be transformable. False otherwise.
     */
-    func isTransFormableValueForKeyPath(key: String) -> Bool
+    @objc func isTransFormableValueForKeyPath(key: String) -> Bool
 }
 
-class WSJSONData: NSObject {
-    func populate(object: AnyObject, jsonData: AnyObject) {
+public class WSJSONData: NSObject {
+    /* Populates a give object that conforms to WSJSONDataProtocal.
+    @param object Object to popluate
+    @param jsonData JSON to populate the object with
+    */
+    @objc public func populate(object: AnyObject, jsonData: AnyObject) {
         if NSJSONSerialization.isValidJSONObject(jsonData) {
             for (key, value) in jsonData as! Dictionary<String, AnyObject> {
                 if ((value as? NSNull) == nil) {
@@ -41,7 +45,7 @@ class WSJSONData: NSObject {
     }
     
     private func getKeyPathForKey(key: String, object: WSJSONDataProtocol) -> String {
-       return object.propertyNameForKey(key)
+        return object.propertyNameForKey(key)
     }
     
     private func getObjectForKey(key: String, value: AnyObject?, parentObject: WSJSONDataProtocol) -> AnyObject? {
