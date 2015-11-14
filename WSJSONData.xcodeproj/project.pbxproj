@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236CE6271BF7774B003E62B2 /* WSJSONData.h in Headers */ = {isa = PBXBuildFile; fileRef = 236CE6261BF7774B003E62B2 /* WSJSONData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		236CE62E1BF7774B003E62B2 /* WSJSONData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236CE6231BF7774B003E62B2 /* WSJSONData.framework */; };
+		236CE6331BF7774B003E62B2 /* WSJSONDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236CE6321BF7774B003E62B2 /* WSJSONDataTests.swift */; };
+		236CE6401BF77797003E62B2 /* WSJSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236CE63F1BF77797003E62B2 /* WSJSONData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		236CE62F1BF7774B003E62B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 236CE61A1BF7774B003E62B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 236CE6221BF7774B003E62B2;
+			remoteInfo = WSJSONData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236CE6231BF7774B003E62B2 /* WSJSONData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSJSONData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		236CE6261BF7774B003E62B2 /* WSJSONData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSJSONData.h; sourceTree = "<group>"; };
+		236CE6281BF7774B003E62B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236CE62D1BF7774B003E62B2 /* WSJSONDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSJSONDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		236CE6321BF7774B003E62B2 /* WSJSONDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSJSONDataTests.swift; sourceTree = "<group>"; };
+		236CE6341BF7774B003E62B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236CE63F1BF77797003E62B2 /* WSJSONData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSJSONData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236CE61F1BF7774B003E62B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236CE62A1BF7774B003E62B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236CE62E1BF7774B003E62B2 /* WSJSONData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236CE6191BF7774B003E62B2 = {
+			isa = PBXGroup;
+			children = (
+				236CE6251BF7774B003E62B2 /* WSJSONData */,
+				236CE6311BF7774B003E62B2 /* WSJSONDataTests */,
+				236CE6241BF7774B003E62B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		236CE6241BF7774B003E62B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236CE6231BF7774B003E62B2 /* WSJSONData.framework */,
+				236CE62D1BF7774B003E62B2 /* WSJSONDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236CE6251BF7774B003E62B2 /* WSJSONData */ = {
+			isa = PBXGroup;
+			children = (
+				236CE63F1BF77797003E62B2 /* WSJSONData.swift */,
+				236CE6261BF7774B003E62B2 /* WSJSONData.h */,
+				236CE6281BF7774B003E62B2 /* Info.plist */,
+			);
+			path = WSJSONData;
+			sourceTree = "<group>";
+		};
+		236CE6311BF7774B003E62B2 /* WSJSONDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				236CE6321BF7774B003E62B2 /* WSJSONDataTests.swift */,
+				236CE6341BF7774B003E62B2 /* Info.plist */,
+			);
+			path = WSJSONDataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		236CE6201BF7774B003E62B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236CE6271BF7774B003E62B2 /* WSJSONData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		236CE6221BF7774B003E62B2 /* WSJSONData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236CE6371BF7774B003E62B2 /* Build configuration list for PBXNativeTarget "WSJSONData" */;
+			buildPhases = (
+				236CE61E1BF7774B003E62B2 /* Sources */,
+				236CE61F1BF7774B003E62B2 /* Frameworks */,
+				236CE6201BF7774B003E62B2 /* Headers */,
+				236CE6211BF7774B003E62B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSJSONData;
+			productName = WSJSONData;
+			productReference = 236CE6231BF7774B003E62B2 /* WSJSONData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		236CE62C1BF7774B003E62B2 /* WSJSONDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236CE63A1BF7774B003E62B2 /* Build configuration list for PBXNativeTarget "WSJSONDataTests" */;
+			buildPhases = (
+				236CE6291BF7774B003E62B2 /* Sources */,
+				236CE62A1BF7774B003E62B2 /* Frameworks */,
+				236CE62B1BF7774B003E62B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236CE6301BF7774B003E62B2 /* PBXTargetDependency */,
+			);
+			name = WSJSONDataTests;
+			productName = WSJSONDataTests;
+			productReference = 236CE62D1BF7774B003E62B2 /* WSJSONDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236CE61A1BF7774B003E62B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Incravo;
+				TargetAttributes = {
+					236CE6221BF7774B003E62B2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					236CE62C1BF7774B003E62B2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 236CE61D1BF7774B003E62B2 /* Build configuration list for PBXProject "WSJSONData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 236CE6191BF7774B003E62B2;
+			productRefGroup = 236CE6241BF7774B003E62B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236CE6221BF7774B003E62B2 /* WSJSONData */,
+				236CE62C1BF7774B003E62B2 /* WSJSONDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236CE6211BF7774B003E62B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236CE62B1BF7774B003E62B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236CE61E1BF7774B003E62B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236CE6401BF77797003E62B2 /* WSJSONData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236CE6291BF7774B003E62B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236CE6331BF7774B003E62B2 /* WSJSONDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		236CE6301BF7774B003E62B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 236CE6221BF7774B003E62B2 /* WSJSONData */;
+			targetProxy = 236CE62F1BF7774B003E62B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		236CE6351BF7774B003E62B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		236CE6361BF7774B003E62B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		236CE6381BF7774B003E62B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WSJSONData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSJSONData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		236CE6391BF7774B003E62B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WSJSONData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSJSONData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		236CE63B1BF7774B003E62B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSJSONDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSJSONDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		236CE63C1BF7774B003E62B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSJSONDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSJSONDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236CE61D1BF7774B003E62B2 /* Build configuration list for PBXProject "WSJSONData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236CE6351BF7774B003E62B2 /* Debug */,
+				236CE6361BF7774B003E62B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236CE6371BF7774B003E62B2 /* Build configuration list for PBXNativeTarget "WSJSONData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236CE6381BF7774B003E62B2 /* Debug */,
+				236CE6391BF7774B003E62B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		236CE63A1BF7774B003E62B2 /* Build configuration list for PBXNativeTarget "WSJSONDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236CE63B1BF7774B003E62B2 /* Debug */,
+				236CE63C1BF7774B003E62B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236CE61A1BF7774B003E62B2 /* Project object */;
+}
