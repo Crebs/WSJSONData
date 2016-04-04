@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol WSJSONDataProtocol {
+@objc public protocol WSJSONDataProtocol {
     /* Called on object when checking the property name for a key path. This will map an objects property to the JSON key value. If the key and the property name are the same then you can just return the key.
     @param key The key in the JSON object that needs to be mapped to a property on the object conforming to this protocol
     @return The object conforming to this protocol must return the property name that should be mapped to the JSON key.  If the key and the property name are the same just return the key.
